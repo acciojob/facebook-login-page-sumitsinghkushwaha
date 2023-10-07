@@ -1,1 +1,75 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+}
+
+.logo img {
+    width: 120px;
+    height: 120px;
+}
+
+.logo h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #65676b;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-form button {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 0;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.create-account {
+    margin-top: 20px;
+}
+
+.create-account p {
+    font-size: 16px;
+    color: #65676b;
+}
+
+.create-account a {
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 16px;
+    margin-top: 10px;
+    display: inline-block;
+}
